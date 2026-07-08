@@ -1,13 +1,84 @@
-:root {
-    --main-deep: #050f2c;
-    --as: #0a1c33;
-    --font-light: #e12d4a;
-    --bold: #fdd85d;
-    --font-bright: #f0f3fa;
-    --fblu: #a8ffb2;
-    --purpl: #ada7ff;
-    --cleangreenblue: linear-gradient(270deg, #1fa2ff, #a8ff78);
-    --l-b: #020922;
-    --white: #ffffff;
-    --top-bg: #202b4e;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mera Video Editing Project</title>
+    <style>
+        :root {
+            --main-deep: #050f2c;
+            --as: #0a1c33;
+            --font-light: #e12d4a;
+            --bold: #fdd85d;
+            --font-bright: #f0f3fa;
+            --fblu: #a8ffb2;
+            --purpl: #ada7ff;
+            --cleangreenblue: linear-gradient(270deg, #1fa2ff, #a8ff78);
+            --l-b: #020922;
+            --white: #ffffff;
+            --top-bg: #202b4e;
+        }
+        body {
+            background-color: var(--main-deep);
+            color: var(--font-bright);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: var(--top-bg);
+            padding: 30px;
+            border-bottom: 3px solid var(--font-light);
+        }
+        .header h1 {
+            margin: 0;
+            color: var(--bold);
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: var(--as);
+            padding: 30px;
+            border-radius: 12px;
+            border: 2px solid var(--purpl);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+        }
+        h2 {
+            color: var(--font-light);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background-color: var(--l-b);
+            margin: 12px 0;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid var(--fblu);
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Mera Video Editing Project</h1>
+    </div>
+
+    <div class="container">
+        <h2>Aapki Purani Profile Wapas Aa Gayi Hai!</h2>
+        <p>Hum naye project mein video setting ko bilkul shuru se sahi karenge.</p>
+        
+        <ul>
+            <li>🎥 Video Option 1</li>
+            <li>🎥 Video Option 2</li>
+            <li>🎥 Video Option 3</li>
+            <li>🎥 Video Option 4</li>
+        </ul>
+    </div>
+
+</body>
+</html>
